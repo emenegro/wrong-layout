@@ -19,6 +19,7 @@
 		572AE64D17D5CCAB001579D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572AE64C17D5CCAB001579D0 /* ViewController.m */; };
 		572AE65017D5CCAB001579D0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572AE64E17D5CCAB001579D0 /* ViewController.xib */; };
 		572AE65817D5CCC2001579D0 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 572AE65717D5CCC2001579D0 /* MyCell.m */; };
+		5741F78917D72B9100DE4770 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5741F78817D72B9100DE4770 /* MyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		572AE64F17D5CCAB001579D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		572AE65617D5CCC2001579D0 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		572AE65717D5CCC2001579D0 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		5741F78717D72B9100DE4770 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		5741F78817D72B9100DE4770 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +89,16 @@
 		572AE63917D5CCAB001579D0 /* WrongLayout */ = {
 			isa = PBXGroup;
 			children = (
-				572AE65617D5CCC2001579D0 /* MyCell.h */,
-				572AE65717D5CCC2001579D0 /* MyCell.m */,
 				572AE64217D5CCAB001579D0 /* AppDelegate.h */,
 				572AE64317D5CCAB001579D0 /* AppDelegate.m */,
+				572AE65617D5CCC2001579D0 /* MyCell.h */,
+				572AE65717D5CCC2001579D0 /* MyCell.m */,
+				5741F78717D72B9100DE4770 /* MyLabel.h */,
+				5741F78817D72B9100DE4770 /* MyLabel.m */,
+				572AE63A17D5CCAB001579D0 /* Supporting Files */,
 				572AE64B17D5CCAB001579D0 /* ViewController.h */,
 				572AE64C17D5CCAB001579D0 /* ViewController.m */,
 				572AE64E17D5CCAB001579D0 /* ViewController.xib */,
-				572AE63A17D5CCAB001579D0 /* Supporting Files */,
 			);
 			path = WrongLayout;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				572AE64417D5CCAB001579D0 /* AppDelegate.m in Sources */,
 				572AE64D17D5CCAB001579D0 /* ViewController.m in Sources */,
 				572AE65817D5CCC2001579D0 /* MyCell.m in Sources */,
+				5741F78917D72B9100DE4770 /* MyLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +312,7 @@
 				572AE65517D5CCAB001579D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -40,11 +40,11 @@
     }
     
     NSInteger row = [indexPath row];
-    [[cell dayLabel] setText:[NSString stringWithFormat:@"%i", row]];
-    [[cell descriptionLabel] setText:[NSString stringWithFormat:@"Description %i", row]];
-    [[cell monthLabel] setText:@"MAY"];
-    [[cell conceptLabel] setText:[NSString stringWithFormat:@"Concept %i", row]];
-    [[cell amountLabel] setText:[NSString stringWithFormat:@"1000,%i €", row]];
+    [cell displayDay:[NSString stringWithFormat:@"%i", row]
+               month:@"MAY"
+         description:[NSString stringWithFormat:@"Description %i", row]
+             concept:[NSString stringWithFormat:@"Concept %i", row]
+              amount:[NSString stringWithFormat:@"1000,%i €", row]];
     
     return cell;
 }

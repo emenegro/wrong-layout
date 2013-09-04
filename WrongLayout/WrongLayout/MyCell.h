@@ -10,10 +10,10 @@
 
 @interface MyCell : UITableViewCell
 
-@property (nonatomic, readwrite, strong) UILabel *dayLabel;
-@property (nonatomic, readwrite, strong) UILabel *monthLabel;
-@property (nonatomic, readwrite, strong) UILabel *descriptionLabel;
-@property (nonatomic, readwrite, strong) UILabel *conceptLabel;
-@property (nonatomic, readwrite, strong) UILabel *amountLabel;
+- (void)displayDay:(NSString *)day
+             month:(NSString *)month
+       description:(NSString *)description
+           concept:(NSString *)concept
+            amount:(NSString *)amount;
 
 @end
